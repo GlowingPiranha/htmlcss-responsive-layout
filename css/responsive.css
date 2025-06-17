@@ -1,4 +1,11 @@
 /* Soluzione qui */
+main {
+  font-family: Montserrat, 'Helvetica Neue', sans-serif;
+}
+
+.recipe-name {
+  font-family: 'Nerko one', cursive;
+}
 
 @media all and (min-width: 768px) {
   #topbar {
@@ -23,11 +30,11 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    gap: 26px;
   }
 
+
   .quick-notes li {
-    margin-right: 20px;
     width: calc(100% \ 3);
 
   }
@@ -39,4 +46,43 @@
   .ads {
     display: block;
   }
+
+  .clearfix img {
+    float: left;
+    margin-right: 11px;
+  }
+
+}
+
+@media all and (min-width: 992px) {
+
+  .recipe-name {
+    font-size: 50px;
+  }
+
+  .recipe-card {
+    display: flex;
+  }
+
+  .recipe-video {
+    width: 70%;
+    height: 500px;
+  }
+
+  .recipe-info {
+    width: 30%;
+  }
+
+  .quick-notes ul {
+    display: initial;
+  }
+
+  .social-networks .btn {
+    padding: 10px 60px;
+  }
+
+  .social-networks .label {
+    display: block;
+  }
+
 }
