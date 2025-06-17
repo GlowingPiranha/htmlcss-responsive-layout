@@ -10,6 +10,10 @@
   }
 
   .recipe-origin {
-    display: block;
+    display: inline-block;
+  }
+
+  .recipe-name {
+    font-size: xx-large;
   }
 }
