@@ -8,4 +8,8 @@
   main {
     padding: 50px;
   }
+
+  .recipe-origin {
+    display: block;
+  }
 }
