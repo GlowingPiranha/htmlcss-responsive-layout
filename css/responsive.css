@@ -16,4 +16,25 @@
   .recipe-name {
     font-size: xx-large;
   }
+
+  .quick-notes ul {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .quick-notes li {
+    margin-right: 20px;
+    width: calc(100% \ 3);
+
+  }
+
+  .social-networks .btn {
+    padding: 10px 50px;
+  }
+
+
 }
