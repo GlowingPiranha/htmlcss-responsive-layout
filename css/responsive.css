@@ -21,9 +21,9 @@ main {
 
 }
 
-@media all and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   #topbar {
-    justify-content: left;
+    justify-content: flex-start;
   }
 
   main {
@@ -31,31 +31,27 @@ main {
   }
 
   .recipe-origin {
-    display: inline-block;
+    display: inline;
   }
 
   .recipe-name {
-    font-size: xx-large;
+    font-size: 25px;
   }
 
   .quick-notes ul {
     display: flex;
-    width: 100%;
-    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 26px;
+    gap: 10px;
   }
 
 
-  .quick-notes li {
-    margin-right: 50px;
-    width: calc(100 \ 3);
+  .quick-notes ul li {
+    width: calc(100 \ 3 - 20px);
 
   }
 
-  .social-networks .btn {
-    padding: 10px 50px;
+  .social-networks button {
+    width: 20%;
 
   }
 
@@ -84,7 +80,7 @@ main {
 
   .recipe-video {
     width: 70%;
-    height: 500px;
+    max-height: 420px;
   }
 
   .recipe-info {
